@@ -1,0 +1,176 @@
+0 
+43
++define+SIM=1
++incdir+
++libext+.v+.vlib+.vh
++multisource_int_delays
++neg_tchk
++overlap
++plusarg_save
++v2k
++vc
++vcs+lic+wait
++warn=noSDFCOM_IANE
++warn=noSDFCOM_IWSBA
++warn=noSDFCOM_PONF
++warn=noSDFCOM_UHICD
++warn=noSDFCOM_UHICD,noSDFCOM_IWSBA,noSDFCOM_IANE,noSDFCOM_PONF
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/usr/caen/vcs-2022.06/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /usr/caen/vcs-2022.06/linux64/lib/libvirsim.so /usr/caen/vcs-2022.06/linux64/lib/liberrorinf.so /usr/caen/vcs-2022.06/linux64/lib/libsnpsmalloc.so /usr/caen/vcs-2022.06/linux64/lib/libvfs.so
+-Mout=sim
+-Msaverestoreobj=/usr/caen/vcs-2022.06/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/usr/caen/vcs-2022.06/include
+-Mxllcflags=
+-full64
+-gen_obj
+-o sim
+-picarchive
+-sverilog
+-timescale=1ns/1ps
+/usr/caen/vcs-2022.06/linux64/bin/vcs1
+sim
+/afs/umich.edu/class/eecs627/ibm13/artisan/2005q3v1/aci/sc-x/verilog/ibm13_neg.v
+reversing_bits.sv
+reversing_bits_tb.sv
+117
+which_declare=declare -f
+mraarch=linux_64
+installdir=/usr/caen/hspice-2022.06/hspice
+__LMOD_REF_COUNT_PATH=/usr/caen/verdi-2022.06/bin:1;/usr/caen/xa-2022.06/bin:1;/usr/caen/primetime-2022.03-SP3/bin:1;/usr/caen/vcs-2022.06/bin:1;/usr/caen/hspice-2022.06/hspice/bin:1;/usr/caen/hspice-2022.06/hspice/GNU/linux64/gcc/bin:1;/usr/caen/hspice-2022.06/hspice/linux64:1;/usr/bin:2;/usr/ucb/bin:1;/usr/caen/innovus-21.37.000/tools/bin:1;/usr/caen/synopsys-lib-compiler-2022.03-SP3/bin:1;/usr/caen/synopsys-synth-2022.03-SP3/bin:1;/usr/caen/calibre-2021.3_15.9/aok/bin:1;/usr/caen/spectre-21.10.415/tools/bin:1;/usr/caen/ic-23.10.020/tools/bin:1;/usr/caen/ic-23.10.020/tools/dfII/bin:1;/usr/caen/ic-23.10.020/tools/leapfrog/bin:1;/usr/caen/bin:2;/home/szaynutd/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/bin/remote-cli:1;/usr/local/bin:1;/usr/local/sbin:1;/usr/sbin:1;/usr/um/bin:1
+__LMOD_REF_COUNT_MODULEPATH=/etc/scl/modulefiles:2;/etc/modulefiles:1;/usr/share/modulefiles:1;/usr/caen/misc/modules:2;/usr/caen/misc/class/modules:2;/usr/share/modulefiles/Linux:1;/usr/share/modulefiles/Core:1;/usr/share/lmod/lmod/modulefiles/Core:1
+__LMOD_REF_COUNT_LM_LICENSE_FILE=license.dat:1;/usr/caen/FLEXlm/data/license.dat.synopsys:1
+__GL_SHADER_DISK_CACHE=0
+_ModuleTable_Sz_=10
+_ModuleTable010_=bWlzYy9tb2R1bGVzOi91c3IvY2Flbi9taXNjL2NsYXNzL21vZHVsZXM6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9MaW51eDovdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmU6L3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZTovdXNyL2NhZW4vbWlzYy9tb2R1bGVzOi91c3IvY2Flbi9taXNjL2NsYXNzL21vZHVsZXMiLAp9Cg==
+_ModuleTable009_=IiwgIi9ldGMvbW9kdWxlZmlsZXMiLCAiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcyIsICIvdXNyL2NhZW4vbWlzYy9tb2R1bGVzIiwgIi91c3IvY2Flbi9taXNjL2NsYXNzL21vZHVsZXMiCiwgIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXgiLCAiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlIiwgIi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLCAiL3Vzci9jYWVuL21pc2MvbW9kdWxlcyIsICIvdXNyL2NhZW4vbWlzYy9jbGFzcy9tb2R1bGVzIiwKfSwKc3lzdGVtQmFzZU1QQVRIID0gIi9ldGMvc2NsL21vZHVsZWZpbGVzOi9ldGMvc2NsL21vZHVsZWZpbGVzOi9ldGMvbW9kdWxlZmlsZXM6L3Vzci9zaGFyZS9tb2R1bGVmaWxlczovdXNyL2NhZW4v
+_ModuleTable008_=PSAxMSwKcHJvcFQgPSB7fSwKc3RhY2tEZXB0aCA9IDEsCnN0YXR1cyA9ICJhY3RpdmUiLAp1c2VyTmFtZSA9ICJ2ZXJkaS8yMDIyLjA2IiwKd1YgPSAiMDAwMDAyMDIyLjAwMDAwMDAwNi4qemZpbmFsIiwKfSwKeGEgPSB7CmZuID0gIi91c3IvY2Flbi9taXNjL21vZHVsZXMveGEvMjAyMi4wNi5sdWEiLApmdWxsTmFtZSA9ICJ4YS8yMDIyLjA2IiwKbG9hZE9yZGVyID0gMTAsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAxLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAieGEvMjAyMi4wNiIsCndWID0gIl4wMDAwMjAyMi4wMDAwMDAwMDYuKnpmaW5hbCIsCn0sCn0sCm1wYXRoQSA9IHsKIi9ldGMvc2NsL21vZHVsZWZpbGVzIiwgIi9ldGMvc2NsL21vZHVsZWZpbGVz
+_ModuleTable007_=b3BzeXMtc3ludGgvMjAyMi4wMy1TUDMiLAp3ViA9ICIwMDAwMDIwMjIuMDAwMDAwMDAzLipzcC4wMDAwMDAwMDMuKnpmaW5hbCIsCn0sCnZjcyA9IHsKZm4gPSAiL3Vzci9jYWVuL21pc2MvbW9kdWxlcy92Y3MvMjAyMi4wNi5sdWEiLApmdWxsTmFtZSA9ICJ2Y3MvMjAyMi4wNiIsCmxvYWRPcmRlciA9IDgsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAxLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAidmNzLzIwMjIuMDYiLAp3ViA9ICIwMDAwMDIwMjIuMDAwMDAwMDA2Lip6ZmluYWwiLAp9LAp2ZXJkaSA9IHsKZm4gPSAiL3Vzci9jYWVuL21pc2MvbW9kdWxlcy92ZXJkaS8yMDIyLjA2Lmx1YSIsCmZ1bGxOYW1lID0gInZlcmRpLzIwMjIuMDYiLApsb2FkT3JkZXIg
+_ModuleTable006_=bGVyLzIwMjIuMDMtU1AzIiwKbG9hZE9yZGVyID0gNSwKcHJvcFQgPSB7fSwKc3RhY2tEZXB0aCA9IDEsCnN0YXR1cyA9ICJhY3RpdmUiLAp1c2VyTmFtZSA9ICJzeW5vcHN5cy1saWItY29tcGlsZXIvMjAyMi4wMy1TUDMiLAp3ViA9ICIwMDAwMDIwMjIuMDAwMDAwMDAzLipzcC4wMDAwMDAwMDMuKnpmaW5hbCIsCn0sClsic3lub3BzeXMtc3ludGgiXSA9IHsKZm4gPSAiL3Vzci9jYWVuL21pc2MvbW9kdWxlcy9zeW5vcHN5cy1zeW50aC8yMDIyLjAzLVNQMy5sdWEiLApmdWxsTmFtZSA9ICJzeW5vcHN5cy1zeW50aC8yMDIyLjAzLVNQMyIsCmxvYWRPcmRlciA9IDQsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAxLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAic3lu
+_ModuleTable005_=My4qemZpbmFsIiwKfSwKc3BlY3RyZSA9IHsKZm4gPSAiL3Vzci9jYWVuL21pc2MvbW9kdWxlcy9zcGVjdHJlLzIxLjEwLjQxNS5sdWEiLApmdWxsTmFtZSA9ICJzcGVjdHJlLzIxLjEwLjQxNSIsCmxvYWRPcmRlciA9IDIsCnByb3BUID0ge30sCnN0YWNrRGVwdGggPSAxLApzdGF0dXMgPSAiYWN0aXZlIiwKdXNlck5hbWUgPSAic3BlY3RyZS8yMS4xMC40MTUiLAp3ViA9ICIwMDAwMDAwMjEuMDAwMDAwMDEwLjAwMDAwMDQxNS4qemZpbmFsIiwKfSwKWyJzeW5vcHN5cy1saWItY29tcGlsZXIiXSA9IHsKZm4gPSAiL3Vzci9jYWVuL21pc2MvbW9kdWxlcy9zeW5vcHN5cy1saWItY29tcGlsZXIvMjAyMi4wMy1TUDMubHVhIiwKZnVsbE5hbWUgPSAic3lub3BzeXMtbGliLWNvbXBp
+_ModuleTable004_=Ny4wMDAiLApsb2FkT3JkZXIgPSA2LApwcm9wVCA9IHt9LApzdGFja0RlcHRoID0gMSwKc3RhdHVzID0gImFjdGl2ZSIsCnVzZXJOYW1lID0gImlubm92dXMvMjEuMzcuMDAwIiwKd1YgPSAiXjAwMDAwMDIxLjAwMDAwMDAzNy4qemZpbmFsIiwKfSwKcHJpbWV0aW1lID0gewpmbiA9ICIvdXNyL2NhZW4vbWlzYy9tb2R1bGVzL3ByaW1ldGltZS8yMDIyLjAzLVNQMy5sdWEiLApmdWxsTmFtZSA9ICJwcmltZXRpbWUvMjAyMi4wMy1TUDMiLApsb2FkT3JkZXIgPSA5LApwcm9wVCA9IHt9LApzdGFja0RlcHRoID0gMSwKc3RhdHVzID0gImFjdGl2ZSIsCnVzZXJOYW1lID0gInByaW1ldGltZS8yMDIyLjAzLVNQMyIsCndWID0gIl4wMDAwMjAyMi4wMDAwMDAwMDMuKnNwLjAwMDAwMDAw
+_ModuleTable003_=YXR1cyA9ICJhY3RpdmUiLAp1c2VyTmFtZSA9ICJlZWNzNjI3L3cyNCIsCndWID0gIip3LjAwMDAwMDAyNC4qemZpbmFsIiwKfSwKaHNwaWNlID0gewpmbiA9ICIvdXNyL2NhZW4vbWlzYy9tb2R1bGVzL2hzcGljZS8yMDIyLjA2Lmx1YSIsCmZ1bGxOYW1lID0gImhzcGljZS8yMDIyLjA2IiwKbG9hZE9yZGVyID0gNywKcHJvcFQgPSB7fSwKc3RhY2tEZXB0aCA9IDEsCnN0YXR1cyA9ICJhY3RpdmUiLAp1c2VyTmFtZSA9ICJoc3BpY2UvMjAyMi4wNiIsCndWID0gIl4wMDAwMjAyMi4wMDAwMDAwMDYuKnpmaW5hbCIsCn0sCmlubm92dXMgPSB7CmZuID0gIi91c3IvY2Flbi9taXNjL21vZHVsZXMvaW5ub3Z1cy8yMS4zNy4wMDAubHVhIiwKZnVsbE5hbWUgPSAiaW5ub3Z1cy8yMS4z
+_ModuleTable002_=YnJlID0gewpmbiA9ICIvdXNyL2NhZW4vbWlzYy9tb2R1bGVzL2NhbGlicmUvMjAyMS4zXzE1LjkiLApmdWxsTmFtZSA9ICJjYWxpYnJlLzIwMjEuM18xNS45IiwKbG9hZE9yZGVyID0gMywKcHJvcFQgPSB7fSwKc3RhY2tEZXB0aCA9IDEsCnN0YXR1cyA9ICJhY3RpdmUiLAp1c2VyTmFtZSA9ICJjYWxpYnJlLzIwMjEuM18xNS45IiwKd1YgPSAiXjAwMDAyMDIxLjAwMDAwMDAwMy4qXy4wMDAwMDAwMTUuMDAwMDAwMDA5Lip6ZmluYWwiLAp9LAplZWNzNjI3ID0gewpmbiA9ICIvdXNyL2NhZW4vbWlzYy9jbGFzcy9tb2R1bGVzL2VlY3M2MjcvdzI0IiwKZnVsbE5hbWUgPSAiZWVjczYyNy93MjQiLApsb2FkT3JkZXIgPSAxMiwKcHJvcFQgPSB7fSwKc3RhY2tEZXB0aCA9IDAsCnN0
+_ModuleTable001_=X01vZHVsZVRhYmxlXyA9IHsKTVR2ZXJzaW9uID0gMywKY19yZWJ1aWxkVGltZSA9IDcyMDAuMCwKY19zaG9ydFRpbWUgPSAwLjAwMTgzOTg3NjE3NDkyNjgsCmRlcHRoVCA9IHt9LApmYW1pbHkgPSB7fSwKbVQgPSB7ClsiY2FkZW5jZS1pYyJdID0gewpmbiA9ICIvdXNyL2NhZW4vbWlzYy9tb2R1bGVzL2NhZGVuY2UtaWMvMjMuMTAuMDIwLmx1YSIsCmZ1bGxOYW1lID0gImNhZGVuY2UtaWMvMjMuMTAuMDIwIiwKbG9hZE9yZGVyID0gMSwKcHJvcFQgPSB7fSwKc3RhY2tEZXB0aCA9IDEsCnN0YXR1cyA9ICJhY3RpdmUiLAp1c2VyTmFtZSA9ICJjYWRlbmNlLWljLzIzLjEwLjAyMCIsCndWID0gIl4wMDAwMDAyMy4wMDAwMDAwMTAuMDAwMDAwMDIwLip6ZmluYWwiLAp9LApjYWxp
+_LMFILES_=/usr/caen/misc/modules/cadence-ic/23.10.020.lua:/usr/caen/misc/modules/spectre/21.10.415.lua:/usr/caen/misc/modules/calibre/2021.3_15.9:/usr/caen/misc/modules/synopsys-synth/2022.03-SP3.lua:/usr/caen/misc/modules/synopsys-lib-compiler/2022.03-SP3.lua:/usr/caen/misc/modules/innovus/21.37.000.lua:/usr/caen/misc/modules/hspice/2022.06.lua:/usr/caen/misc/modules/vcs/2022.06.lua:/usr/caen/misc/modules/primetime/2022.03-SP3.lua:/usr/caen/misc/modules/xa/2022.06.lua:/usr/caen/misc/modules/verdi/2022.06.lua:/usr/caen/misc/class/modules/eecs627/w24
+XLIB_SKIP_ARGB_VISUALS=1
+XDG_SESSION_ID=5376
+XDG_RUNTIME_DIR=/run/user/114199992
+XDG_DATA_DIRS=/home/szaynutd/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+XARCH=linux64
+VSCODE_IPC_HOOK_CLI=/run/user/114199992/vscode-ipc-129c115b-1d82-4770-93b4-90daf40f8aed.sock
+VSCODE_GIT_IPC_HANDLE=/run/user/114199992/vscode-git-a4b1b607c2.sock
+VSCODE_GIT_ASKPASS_NODE=/home/szaynutd/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/node
+VSCODE_GIT_ASKPASS_MAIN=/home/szaynutd/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/extensions/git/dist/askpass-main.js
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+VMR_MODE_FLAG=64
+VERDI_HOME=/usr/caen/verdi-2022.06
+VCS_TARGET_ARCH=linux64
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_HOME=/usr/caen/vcs-2022.06
+VCS_EXEC_DONE=1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/usr/caen/vcs-2022.06/linux64
+TMIARCH=RH_64
+TERM_PROGRAM_VERSION=1.93.1
+TERM_PROGRAM=vscode
+SYNOPSYS_LC_ROOT=/usr/caen/synopsys-lib-compiler-2022.03-SP3
+SYNOPSYS=/usr/caen/synopsys-synth-2022.03-SP3
+SSL_CERT_FILE=/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
+SSL_CERT_DIR=/etc/pki/tls/certs
+SSH_CONNECTION=35.7.37.33 56880 141.211.4.240 22
+SSH_CLIENT=35.7.37.33 56880 22
+SSH_AUTH_SOCK=/tmp/ssh-7wkjOGeHPu9y/agent.2077487
+SSH_AGENT_PID=2077488
+SPAPI_AHDL_INCLUDE=/usr/caen/hspice-2022.06/hspice/include
+SNPS_VCS_CLANG_PATH=/usr/caen/vcs-2022.06/linux64/clang
+SNPS_PLATFORM=linux64
+SNPS_INTERNAL_VCS_LINUX_OS=linux
+SNPS_64=1
+SELINUX_USE_CURRENT_RANGE=
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+OVA_UUM=0
+MSI2LMP_LIBRARY=/usr/share/lammps/frc_files
+MODULESHOME=/usr/share/Modules
+MODULEPATH_ROOT=/usr/share/modulefiles
+MODULEPATH=/etc/scl/modulefiles:/etc/modulefiles:/usr/share/modulefiles:/usr/caen/misc/modules:/usr/caen/misc/class/modules:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core
+MGLS_LICENSE_FILE=/usr/caen/FLEXlm/data/license.dat.mentor
+MGC_HOME=/usr/caen/calibre-2021.3_15.9/aok
+MFLAGS=
+MAKE_TERMOUT=/dev/pts/7
+MAKE_TERMERR=/dev/pts/7
+MAKELEVEL=1
+MAKEFLAGS=
+LOADEDMODULES=cadence-ic/23.10.020:spectre/21.10.415:calibre/2021.3_15.9:synopsys-synth/2022.03-SP3:synopsys-lib-compiler/2022.03-SP3:innovus/21.37.000:hspice/2022.06:vcs/2022.06:primetime/2022.03-SP3:xa/2022.06:verdi/2022.06:eecs627/w24
+LMOD_sys=Linux
+LMOD_VERSION=8.7.48
+LMOD_SETTARG_FULL_SUPPORT=no
+LMOD_ROOT=/usr/share/lmod
+LMOD_PKG=/usr/share/lmod/lmod
+LMOD_DIR=/usr/share/lmod/lmod/libexec
+LMOD_CMD=/usr/share/lmod/lmod/libexec/lmod
+LMOD_CACHED_LOADS=yes
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+LAMMPS_POTENTIALS=/usr/share/lammps/potentials
+KRB5CCNAME=KEYRING:persistent:114199992
+HSP_SIGMA_AMP=/usr/caen/hspice-2022.06/hspice/linux64/python/AVA/ava
+HSP_HOME=/usr/caen/hspice-2022.06/hspice
+HSP_GCC_VERSION=9.2.0
+HSP_GCC=/usr/caen/hspice-2022.06/hspice/GNU/linux64/gcc/bin/gcc -m64
+HISTCONTROL=ignoredups
+GIT_ASKPASS=/home/szaynutd/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/extensions/git/dist/askpass.sh
+FPATH=/usr/local/share/zsh/site-functions:/usr/share/zsh/site-functions:/usr/share/zsh/5.5.1/functions:/usr/share/lmod/lmod/init/ksh_funcs
+DD_DONT_DO_OS_LOCKS=SET
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/114199992/bus
+COLORTERM=truecolor
+CMIARCH=RH_64
+CLS_CDSD_COMPATIBILITY_LOCKING=NO
+CDS_XVFB_PATH=/usr/caen/ic-23.10.020/xvfb-rhel8
+CDS_VERSION=IC6
+CDS_Netlisting_Mode=Analog
+CDS_LOAD_ENV=CSF
+CDS_LIC_FILE=/usr/caen/FLEXlm/data/license.dat.cadence
+CDS_INSTALL_DIR=/usr/caen/ic-23.10.020/tools/dfII
+CDS_AUTO_64BIT=ALL
+CDSHOME=/usr/caen/ic-23.10.020
+CDS=/usr/caen/ic-23.10.020
+CDPL_HOME=/usr/caen/hspice-2022.06/hspice/cdpl
+CALIBRE_HOME=/usr/caen/calibre-2021.3_15.9/aok
+BASH_FUNC_which%%=() {  ( alias;_ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@_}
+BASH_FUNC_scl%%=() {  if [ "$1" = "load" -o "$1" = "unload" ]; then_ eval "module $@";_ else_ /usr/bin/scl "$@";_ fi_}
+BASH_FUNC_module%%=() {  if [ -z "${LMOD_SH_DBG_ON+x}" ]; then_ case "$-" in _ *v*x*)_ __lmod_sh_dbg='vx'_ ;;_ *v*)_ __lmod_sh_dbg='v'_ ;;_ *x*)_ __lmod_sh_dbg='x'_ ;;_ esac;_ fi;_ if [ -n "${__lmod_sh_dbg:-}" ]; then_ set +$__lmod_sh_dbg;_ echo "Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output" 1>&2;_ fi;_ eval "$($LMOD_CMD shell "$@")" && eval "$(${LMOD_SETTARG_CMD:-:} -s sh)";_ __lmod_my_status=$?;_ if [ -n "${__lmod_sh_dbg:-}" ]; then_ echo "Shell debugging restarted" 1>&2;_ set -$__lmod_sh_dbg;_ fi;_ unset __lmod_sh_dbg;_ return $__lmod_my_status_}
+BASH_FUNC_ml%%=() {  eval "$($LMOD_DIR/ml_cmd "$@")"_}
+BASH_ENV=/usr/share/lmod/lmod/init/bash
+ARCH=linux64
+0
+0
+3
+1728151221 reversing_bits_tb.sv
+1728151095 reversing_bits.sv
+1121399997 /afs/umich.edu/class/eecs627/ibm13/artisan/2005q3v1/aci/sc-x/verilog/ibm13_neg.v
+4
+1654054205 /usr/caen/vcs-2022.06/linux64/lib/libvirsim.so
+1654053585 /usr/caen/vcs-2022.06/linux64/lib/liberrorinf.so
+1654053489 /usr/caen/vcs-2022.06/linux64/lib/libsnpsmalloc.so
+1654053565 /usr/caen/vcs-2022.06/linux64/lib/libvfs.so
+1728151233 sim.daidir
+-1 partitionlib

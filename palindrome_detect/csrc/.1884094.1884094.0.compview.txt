@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1728246671.182404516, "rt":3.93, "ut":2.15, "st":0.53}}
+{"vcselab":{"timestamp_begin":1728246675.210892327, "rt":0.88, "ut":0.24, "st":0.13}}
+{"link":{"timestamp_begin":1728246676.177565037, "rt":0.93, "ut":0.14, "st":0.21}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1728246670.263035588}
+{"VCS_COMP_START_TIME": 1728246670.263035588}
+{"VCS_COMP_END_TIME": 1728246677.272035841}
+{"VCS_USER_OPTIONS": "-o sim +v2k +vc -sverilog -timescale=1ns/1ps +vcs+lic+wait +multisource_int_delays +neg_tchk +incdir+ +plusarg_save +overlap +warn=noSDFCOM_UHICD,noSDFCOM_IWSBA,noSDFCOM_IANE,noSDFCOM_PONF -full64 -cc gcc +libext+.v+.vlib+.vh +define+SIM=1 /afs/umich.edu/class/eecs627/ibm13/artisan/2005q3v1/aci/sc-x/verilog/ibm13_neg.v palindrome_detect.sv palindrome_detect_tb.sv"}
+{"vcs1": {"peak_mem": 1884873}}
+{"stitch_vcselab": {"peak_mem": 1884923}}

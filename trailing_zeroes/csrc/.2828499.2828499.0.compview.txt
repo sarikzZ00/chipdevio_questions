@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1728240982.479880241, "rt":4.97, "ut":2.26, "st":0.57}}
+{"vcselab":{"timestamp_begin":1728240987.543403996, "rt":1.27, "ut":0.26, "st":0.13}}
+{"link":{"timestamp_begin":1728240988.896816755, "rt":1.25, "ut":0.14, "st":0.20}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1728240981.561468020}
+{"VCS_COMP_START_TIME": 1728240981.561468020}
+{"VCS_COMP_END_TIME": 1728240990.382997106}
+{"VCS_USER_OPTIONS": "-o sim +v2k +vc -sverilog -timescale=1ns/1ps +vcs+lic+wait +multisource_int_delays +neg_tchk +incdir+ +plusarg_save +overlap +warn=noSDFCOM_UHICD,noSDFCOM_IWSBA,noSDFCOM_IANE,noSDFCOM_PONF -full64 -cc gcc +libext+.v+.vlib+.vh +define+SIM=1 /afs/umich.edu/class/eecs627/ibm13/artisan/2005q3v1/aci/sc-x/verilog/ibm13_neg.v trailing_zeroes.sv trailing_zeroes_tb.sv"}
+{"vcs1": {"peak_mem": 2829292}}
+{"stitch_vcselab": {"peak_mem": 2829462}}
