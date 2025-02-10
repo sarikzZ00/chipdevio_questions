@@ -1,9 +1,0 @@
-{"vcs1":{"timestamp_begin":1728244310.805121628, "rt":4.75, "ut":2.23, "st":0.60}}
-{"vcselab":{"timestamp_begin":1728244315.650979848, "rt":1.42, "ut":0.25, "st":0.14}}
-{"link":{"timestamp_begin":1728244317.165073576, "rt":1.53, "ut":0.14, "st":0.22}}
-{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1728244309.814472671}
-{"VCS_COMP_START_TIME": 1728244309.814472671}
-{"VCS_COMP_END_TIME": 1728244318.973030796}
-{"VCS_USER_OPTIONS": "-o sim +v2k +vc -sverilog -timescale=1ns/1ps +vcs+lic+wait +multisource_int_delays +neg_tchk +incdir+ +plusarg_save +overlap +warn=noSDFCOM_UHICD,noSDFCOM_IWSBA,noSDFCOM_IANE,noSDFCOM_PONF -full64 -cc gcc +libext+.v+.vlib+.vh +define+SIM=1 /afs/umich.edu/class/eecs627/ibm13/artisan/2005q3v1/aci/sc-x/verilog/ibm13_neg.v seq_detect.sv seq_detect_tb.sv"}
-{"vcs1": {"peak_mem": 2891267}}
-{"stitch_vcselab": {"peak_mem": 2891374}}

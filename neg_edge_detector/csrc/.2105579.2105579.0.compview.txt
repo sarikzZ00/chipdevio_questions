@@ -1,9 +1,0 @@
-{"vcs1":{"timestamp_begin":1728154372.629264629, "rt":3.85, "ut":2.08, "st":0.53}}
-{"vcselab":{"timestamp_begin":1728154376.572995359, "rt":0.85, "ut":0.24, "st":0.12}}
-{"link":{"timestamp_begin":1728154377.508319663, "rt":0.96, "ut":0.13, "st":0.20}}
-{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1728154371.789814948}
-{"VCS_COMP_START_TIME": 1728154371.789814948}
-{"VCS_COMP_END_TIME": 1728154378.629099722}
-{"VCS_USER_OPTIONS": "-o sim +v2k +vc -sverilog -timescale=1ns/1ps +vcs+lic+wait +multisource_int_delays +neg_tchk +incdir+ +plusarg_save +overlap +warn=noSDFCOM_UHICD,noSDFCOM_IWSBA,noSDFCOM_IANE,noSDFCOM_PONF -full64 -cc gcc +libext+.v+.vlib+.vh +define+SIM=1 /afs/umich.edu/class/eecs627/ibm13/artisan/2005q3v1/aci/sc-x/verilog/ibm13_neg.v neg_edge_detector.sv neg_edge_detector_tb.sv"}
-{"vcs1": {"peak_mem": 2106350}}
-{"stitch_vcselab": {"peak_mem": 2106431}}

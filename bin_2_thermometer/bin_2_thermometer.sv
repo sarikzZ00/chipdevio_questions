@@ -18,4 +18,15 @@ module bin_2_thermometer (
     output reg [255:0] dout
 );
 
+integer i;
+
+    always_comb begin
+        dout = 256'b0;
+
+        for (i = 0; i <= din; i = i + 1) begin
+            dout[i] = 1'b1;
+        end
+    end
+
+
 endmodule

@@ -1,9 +1,0 @@
-{"vcs1":{"timestamp_begin":1728151227.509731281, "rt":4.45, "ut":2.29, "st":0.49}}
-{"vcselab":{"timestamp_begin":1728151232.060804949, "rt":0.94, "ut":0.27, "st":0.13}}
-{"link":{"timestamp_begin":1728151233.088739765, "rt":1.15, "ut":0.15, "st":0.23}}
-{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1728151226.571822596}
-{"VCS_COMP_START_TIME": 1728151226.571822596}
-{"VCS_COMP_END_TIME": 1728151234.407135694}
-{"VCS_USER_OPTIONS": "-o sim +v2k +vc -sverilog -timescale=1ns/1ps +vcs+lic+wait +multisource_int_delays +neg_tchk +incdir+ +plusarg_save +overlap +warn=noSDFCOM_UHICD,noSDFCOM_IWSBA,noSDFCOM_IANE,noSDFCOM_PONF -full64 -cc gcc +libext+.v+.vlib+.vh +define+SIM=1 /afs/umich.edu/class/eecs627/ibm13/artisan/2005q3v1/aci/sc-x/verilog/ibm13_neg.v reversing_bits.sv reversing_bits_tb.sv"}
-{"vcs1": {"peak_mem": 2087766}}
-{"stitch_vcselab": {"peak_mem": 2087861}}

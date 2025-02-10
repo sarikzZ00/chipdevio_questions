@@ -46,7 +46,33 @@ module multi_bit_fifo #(parameter DATA_WIDTH = 8) (
     output logic full,
     output logic empty
 );
+    logic [DATA_WIDTH-1:0] fifo_mem [1:0];
+    logic state; // 0: One entry filled (Intermediate), 1: Full
 
+    always_ff @(posedge clk) begin
+        if (!resetn) begin
+            fifo_mem[0] <= '0;
+            fifo_mem[1] <= '0;
+            dout <= '0;
+            full <= 0;
+            empty <= 1;
+            state <= 0;
+        end else if (wr) begin
+            if (empty) begin
+                fifo_mem[0] <= din;
+                dout <= din; 
+                empty <= 0;
+            end else if (!state) begin
+                fifo_mem[1] <= din;
+                state <= 1;
+                full <= 1;
+            end else begin
+                fifo_mem[0] <= fifo_mem[1];
+                fifo_mem[1] <= din;
+                dout <= fifo_mem[1]; 
+            end
+        end
+    end
 
 
 
